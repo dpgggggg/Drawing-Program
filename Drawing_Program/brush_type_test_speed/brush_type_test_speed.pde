@@ -8,7 +8,7 @@ float prevMouseY = 0;
 
 void setup() {
   size(1280,720);
-  background(255);
+  //background(255);
 }
 
 void draw() {
