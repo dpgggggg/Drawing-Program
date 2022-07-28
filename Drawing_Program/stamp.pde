@@ -44,6 +44,7 @@ void SButtonsDraw() {
   fill(buttonFill); //
   rect(SButton2X, SButton2Y, SButton2Width, SButton2Height);
   fill(255,0,0);
+  textAlign(RIGHT,CENTER);
   text(Sbutton2Text, SButton2Y, SButton2Width, SButton2Height);
   fill(resetButtonColour);
   //

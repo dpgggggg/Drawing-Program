@@ -17,7 +17,7 @@ void SRec_mouseDragged() {
 
   for (int i = 0; i < 5; i++) {
     float jiggleColor = random(-10, 10);
-    tint(r+jiggleColor, g, b+jiggleColor, 150);
+    tint(0+jiggleColor, 150);
     //tint(100,0,170, 200);
 
 

@@ -184,8 +184,10 @@ void mousePressed() {
 void mouseDragged() {
   if (stampOn==true) {
     if ( stamp==true && mouseX>drawingSurfaceX && mouseX<drawingSurfaceX+drawingSurfaceWidth && mouseY>drawingSurfaceY && mouseY< drawingSurfaceY+drawingSurfaceHeight ) 
-    {
+    { stroke(0);
+    fill(255,0,0);
       ellipse( mouseX, mouseY, drawingDiameter, drawingDiameter);
+      fill(255);
     }
 
     if (stamp==true && SRec==true && mouseX>drawingSurfaceX && mouseX<drawingSurfaceX+drawingSurfaceWidth && mouseY>drawingSurfaceY && mouseY< drawingSurfaceY+drawingSurfaceHeight)

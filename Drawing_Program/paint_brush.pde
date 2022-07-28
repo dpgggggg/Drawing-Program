@@ -21,13 +21,13 @@ void paintBrush_mouseDragged() {
   for (int i = 0; i < 5; i++) {
     float jiggleColor = random(-10, 10);
     //tint(100+jiggleColor,0,170+jiggleColor, 150);
-    tint(r,g,b, 200);
+    tint(255, 200);
 
 
     pushMatrix();
     float jiggle = random(-1, 1);
-    //translate(mouseX+jiggle, mouseY+jiggle);
-    translate(mouseX, mouseY);
+    translate(mouseX+jiggle, mouseY+jiggle);
+   // translate(mouseX, mouseY);
 
     float jiggleAngle = random(-1, 1);
     //rotate(brushAngle+(3*PI/2) + jiggleAngle);

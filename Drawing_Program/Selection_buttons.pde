@@ -47,6 +47,7 @@ void popupPenButtonsDraw() {
   fill(buttonFill); //
   rect(penButton2X, penButton2Y, penButton2Width, penButton2Height);
   fill(0,0,255);
+  textAlign(CENTER,CENTER);
   text(penButton2Text, penButton2X, penButton2Y, penButton2Width, penButton2Height);
   fill(resetButtonColour);
   //
@@ -60,6 +61,7 @@ void popupPenButtonsDraw() {
   fill(buttonFill); //
   rect(penButton3X, penButton3Y, penButton3Width, penButton3Height);
   fill(0,0,255);
+  textAlign(CENTER,CENTER);
   text(penButton3Text,penButton3X, penButton3Y, penButton3Width, penButton3Height);
   fill(resetButtonColour);
 }

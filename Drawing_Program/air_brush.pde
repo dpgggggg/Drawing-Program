@@ -16,7 +16,7 @@ void airBrush_mouseDragged() {
   for (int i = 0; i < 5; i++) {
     float jiggleColor = random(-100, 100);
     //tint(100+jiggleColor,0,170+jiggleColor, 200);
-    tint(r,g,b, 200);
+    tint(0, 200);
 
 
     pushMatrix();
